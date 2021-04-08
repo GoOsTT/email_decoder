@@ -1,4 +1,16 @@
+.text_holder {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
 .input_field {
   height: 600px;
   width: 800px;
+}
+.display_holder {
+  height: 1000px;
+  width: 800px;
+  margin-left: 50px;
+  border: 1px solid black;
 }

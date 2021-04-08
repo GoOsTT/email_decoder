@@ -1,21 +1,21 @@
 import React from "react";
 import { useState } from "react";
+import Display from "../EmailPart/Display";
 import "./TextFields.css";
 
 const TextFields = () => {
   const [input, setInput] = useState([""]);
 
-  const handleChange = (e) => {
-    setInput(e.target.value);
-    console.log(input);
-  };
-
   return (
-    <div>
-      <textarea onChange={() => handleChange} className='input_field'>
-        At w3schools.com you will learn how to make a website. They offer free
-        tutorials in all web development technologies.
+    <div class='text_holder'>
+      <textarea
+        onChange={(e) => setInput(e.target.value)}
+        className='input_field'>
+        Put your amazing shit herer
       </textarea>
+      <div class='display_holder'>
+        <Display input={input} />
+      </div>
     </div>
   );
 };
