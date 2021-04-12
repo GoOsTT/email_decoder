@@ -11,7 +11,7 @@ const TextFields = () => {
       <textarea
         onChange={(e) => setInput(e.target.value)}
         className='input_field'>
-        Put your amazing shit herer
+        Put your amazing shit here
       </textarea>
       <div class='display_holder'>
         <Display input={input} />

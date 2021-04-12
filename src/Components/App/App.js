@@ -2,7 +2,7 @@ import "./App.css";
 
 // component imports
 import TextFields from "../TextFields/TextFields";
-import Display from "../EmailPart/Display";
+/* import Display from "../EmailPart/Display"; */
 
 function App() {
   return (
