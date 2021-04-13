@@ -5,3 +5,12 @@ body {
   height: 100%;
   margin: 0;
 }
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c30c15;
+  margin-bottom: 30px;
+}

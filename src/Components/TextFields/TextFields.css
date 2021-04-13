@@ -7,10 +7,14 @@
 .input_field {
   height: 600px;
   width: 800px;
+  color: white;
+  background-color: #28282a;
 }
 .display_holder {
-  height: 1000px;
+  height: 600px;
   width: 800px;
+  overflow: scroll;
   margin-left: 50px;
-  border: 1px solid black;
+  color: white;
+  background-color: #28282a;
 }

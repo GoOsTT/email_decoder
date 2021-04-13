@@ -7,16 +7,20 @@ const Display = (props) => {
     "&": "&amp;",
     "&lt;": "<",
     "&gt;": ">",
+    "&nbsp;": " ",
   };
 
   const newInput = input.toString().replace(/&lt;|&gt;/gi, function (matched) {
     return tagsToReplace[matched];
   });
 
-  //próba mondat
-  /* &lt;v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t"&gt; */
-
-  return <div>{newInput}</div>;
+  return (
+    <>
+      <div>
+        <div>{newInput}</div>
+      </div>
+    </>
+  );
 };
 
 export default Display;
