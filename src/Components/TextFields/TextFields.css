@@ -1,6 +1,6 @@
 .text_holder {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 30px;
 }
 
@@ -17,4 +17,23 @@
   margin-left: 50px;
   color: white;
   background-color: #28282a;
+}
+.switch_button {
+  height: 50px;
+  width: 50px;
+  margin-top: 250px;
+  margin-left: 35px;
+  background-color: #28282a;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+.switch_button:hover {
+  background-color: white;
+}
+#loop_icon {
+  color: white;
+}
+#loop_icon:hover {
+  color: black;
 }
