@@ -1,7 +1,7 @@
 import React from "react";
 
 const Display = (props) => {
-  const { input } = props;
+  const { input, isToggled } = props;
 
   // entity to HTML
   const tagsToReplace = {
@@ -17,27 +17,23 @@ const Display = (props) => {
 
   //HTML to entity
   const tagsToReplaceBack = {
-    "&": "&amp;",
-    "&lt;": "<",
-    "&gt;": ">",
-    "&nbsp;": " ",
+    "<": "&lt;",
+    ">": "&gt;",
   };
-  const changeBackInput = input
-    .toString()
-    .replace(/<|>;/gi, function (matched) {
-      return tagsToReplace[matched];
-    });
+  const changeBackInput = input.toString().replace(/<|>/gi, function (matched) {
+    return tagsToReplaceBack[matched];
+  });
 
-  // gomb kell amivel a kész HTML vissza alakítható hell kóddá
+  console.log(isToggled);
+  console.log(changeBackInput);
+
   /* szépíteni kell a szöveget ami kijön
   https://prettier.io/docs/en/browser.html */
 
   return (
-    <>
-      <div>
-        <div>{newInput}</div>
-      </div>
-    </>
+    <div>
+      {isToggled ? <div>{changeBackInput}</div> : <div>{newInput}</div>}
+    </div>
   );
 };
 
