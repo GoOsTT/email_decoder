@@ -24,12 +24,6 @@ const Display = (props) => {
     return tagsToReplaceBack[matched];
   });
 
-  console.log(isToggled);
-  console.log(changeBackInput);
-
-  /* szépíteni kell a szöveget ami kijön
-  https://prettier.io/docs/en/browser.html */
-
   return (
     <div>
       {isToggled ? <div>{changeBackInput}</div> : <div>{newInput}</div>}

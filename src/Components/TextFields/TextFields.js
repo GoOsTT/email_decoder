@@ -14,12 +14,11 @@ const TextFields = () => {
         className='input_field'>
         Put your hell code here
       </textarea>
-      <p>{isToggled ? "HTML TO HELL" : "HELL TO HTML"}</p>
-      <button onClick={() => setToggled(!isToggled)} class='switch_button'>
-        <span class='material-icons' id='loop_icon'>
-          loop
-        </span>
-      </button>
+      <div className='middle_holder'>
+        <button onClick={() => setToggled(!isToggled)} class='switch_button'>
+          {isToggled ? "HTML TO HELL" : "HELL TO HTML"}
+        </button>
+      </div>
       <div class='display_holder'>
         <Display input={input} isToggled={isToggled} />
       </div>

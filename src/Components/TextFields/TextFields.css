@@ -20,8 +20,9 @@
 }
 .switch_button {
   height: 50px;
-  width: 50px;
-  margin-top: 250px;
+  width: 80px;
+  color: white;
+  margin-top: 200px;
   margin-left: 35px;
   background-color: #28282a;
   transition-timing-function: ease-in-out;
@@ -30,10 +31,8 @@
 }
 .switch_button:hover {
   background-color: white;
-}
-#loop_icon {
-  color: white;
-}
-#loop_icon:hover {
   color: black;
+}
+.middle_holder {
+  padding: 30px;
 }
