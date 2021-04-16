@@ -35,8 +35,6 @@ const Display = (props) => {
     }, 1000);
   };
 
-  /* https://stackoverflow.com/questions/39501289/in-reactjs-how-to-copy-text-to-clipboard*/
-
   return (
     <>
       <div>

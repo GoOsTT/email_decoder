@@ -8,7 +8,7 @@ const InfoSnippet = () => (
     trigger={
       <button className='button'>
         {" "}
-        <span class='material-icons' id='question_mark'>
+        <span className='material-icons' id='question_mark'>
           help_outline
         </span>{" "}
       </button>
@@ -26,8 +26,8 @@ const InfoSnippet = () => (
           <h2>Usage of the app</h2>
           <ul>
             <li>
-              Paste your mail code that you'd like to work with to the "Put your
-              hell code here" part.
+              Paste your mail code that you'd like to work with to the top left
+              text area.
             </li>
             <li>
               The email is automatically translates into HTML, that you can see
@@ -35,8 +35,8 @@ const InfoSnippet = () => (
             </li>
             <li>
               Copy the freshly translated code on the right, and paste it into
-              the box that says "Insert your freshly translated and formatted
-              hell code below".
+              the box that says "Insert your freshly translated hell code
+              below".
             </li>
             <li>
               The code should execute in a second, and you can see your code on
@@ -121,8 +121,4 @@ const InfoSnippet = () => (
   </Popup>
 );
 
-/*
-snippet documentation:
-https://react-popup.elazizi.com/react-modal
-*/
 export default InfoSnippet;

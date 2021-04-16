@@ -10,10 +10,7 @@ const CodePen = () => {
       data-default-tab='html,result'
       data-editable='true'>
       <pre data-lang='html'>
-        <h1>
-          &lt;!-- Insert your freshly translated and formatted hell code below
-          --&gt;
-        </h1>
+        <h1>&lt;!-- Insert your freshly translated hell code below --&gt;</h1>
       </pre>
     </div>
   );
