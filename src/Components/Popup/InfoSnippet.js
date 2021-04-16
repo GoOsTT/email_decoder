@@ -68,6 +68,25 @@ const InfoSnippet = () => (
               to "HTML to Hell Code" and you are ready to paste it into
               Maintenance.
             </li>
+            <h3>Copy Pasting advices and workflow</h3>
+            <ul>
+              <li>Paste the hell code on the left</li>
+              <li>Scroll down on the right and click "copy to clipboard"</li>
+              <li>Paste the HTML code on the left in the editor</li>
+              <li>
+                After being done with editing, you can press CTR/CMD+A to select
+                all in the editor
+              </li>
+              <li>
+                Paste the HTML code on the left in the translator, switch to
+                HTML to Hell
+              </li>
+              <li>
+                Scroll down and click Copy to Clipboard, an voilá you have the
+                edited and translated Hell code on your clipboard waiting to be
+                pasted into Maintenance
+              </li>
+            </ul>
           </ul>
           <h2>General informations</h2>
           <ul>
